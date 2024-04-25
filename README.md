@@ -36,4 +36,5 @@ To install gtkwave use
 sudo apt update
 
 sudo apt install gtkwave
+
 ![gtkwave](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/88831ff2-a15f-4fd4-914b-dd0ba61fd6c1)
