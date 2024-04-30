@@ -184,6 +184,7 @@ Examples
   Type :B
   32bit code :0 00000 00000 00000 000 1100011
 
+
   11.bne r0,r1,20
   Type :B
   32bit code :1 00000 00001 00000 001 1100011
@@ -196,3 +197,7 @@ Examples
   Type :R
   32bit code :00000010 00010 01110 101 10000 0110011
 </pre>
+
+# Task-3
+installing leafpad and run a sample c program 
+![clab](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/a6e004e1-b506-4eb5-82af-44e55cc57f73)
