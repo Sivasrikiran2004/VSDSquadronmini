@@ -145,4 +145,54 @@ Format of J-type instruction
 Examples
 <pre>
   1.add r7,r1,r2
+  Type :R
+  32bit code :0110011 00001 00010 000 00110 0110011
+
+  2.sub r7,r1,r2
+  Type :R
+  32bit code :0110011 00001 00010 000 00111 0110011
+
+  3.and r8,r1,r3
+  Type :R
+  32bit code :0110011 00001 00011 000 01000 0110011
+
+  4.or r9,r2,r5
+  Type :R
+  32bit code :0110011 00010 00101 110 01001 0110011
+
+  5.xor r10,r1,r4
+  Type :R
+  32bit code :0110011 00001 00100 100 01010 0110011
+
+  6.slt r11,r2,r4
+  Type :R
+  32bit code :0110011 00010 00100 010 01011 0110011
+
+  7.addi r12,r4,5
+  Type :I
+  32bit code :000000000101 00100 000 01100 0010011 
+
+  8.sw r3,r1,2
+  Type :S
+  32bit code :00010 00011 00001 010 00010 0100011
+
+  9.lw r13,r1,2
+  Type :I
+  32bit code :000000000010 00001 010 01101 0000011
+
+  10.beq r0,r0,15
+  Type :B
+  32bit code :0 00000 00000 00000 000 1100011
+
+  11.bne r0,r1,20
+  Type :B
+  32bit code :1 00000 00001 00000 001 1100011
+
+  12.sll r15,r1,r2(2)
+  Type :S
+  32bit code :0000000 00010 01110 101 10000 0110011
+
+  13.srl r16,r14,r2(2)
+  Type :
+  32bit code :
 </pre>
