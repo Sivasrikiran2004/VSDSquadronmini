@@ -200,4 +200,14 @@ Examples
 
 # Task-3
 installing leafpad and run a sample c program 
-![clab](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/a6e004e1-b506-4eb5-82af-44e55cc57f73)
+
+![clab](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/a6e004e1-b506-4eb5-82af-44e55cc57f73)      
+
+objdump file for O1  
+
+![Screenshot 2024-04-30 234554](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/31baebbc-f201-4189-873b-16d9130c14c8)   
+
+objdump file for Ofast  
+
+![Screenshot 2024-04-30 234749](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/7a3fbf10-2f5f-4539-9ea5-8563055e431e)  
+
