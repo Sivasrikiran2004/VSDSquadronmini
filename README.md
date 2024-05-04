@@ -211,3 +211,6 @@ objdump file for Ofast
 
 ![Screenshot 2024-04-30 234749](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/7a3fbf10-2f5f-4539-9ea5-8563055e431e)  
 
+# Task-3
+Spike simulation and checking whether gcc and spike are giving same output or not
+![image](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/dd1a1b0f-41c5-42f5-9179-fff051f72ec8)
