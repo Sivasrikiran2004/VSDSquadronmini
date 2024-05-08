@@ -211,6 +211,57 @@ objdump file for Ofast
 
 ![Screenshot 2024-04-30 234749](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/7a3fbf10-2f5f-4539-9ea5-8563055e431e)  
 
-# Task-3
+# Task-4
 Spike simulation and checking whether gcc and spike are giving same output or not
-![image](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/dd1a1b0f-41c5-42f5-9179-fff051f72ec8)
+![image](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/dd1a1b0f-41c5-42f5-9179-fff051f72ec8)  
+
+# Task-5
+The output waveform showing the instructions performed in a 5-stage pipelined architecture
+
+1.add r6,r2,r1  
+![1 add r6,r2,r1](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/ef1713c5-bbd2-4aef-98d4-d18daedb8ec9)
+
+2.sub r7,r1,r2  
+![2 sub r7,r1,r2](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/2bdc9f83-97f1-4eae-bf81-29f126998387)  
+
+3.and r8,r1,r3  
+![3 and r8,r1,r3](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/cbba61f7-cc4f-4ffc-9279-e229248df0b8)  
+
+4.or r9,r2,r5  
+![4 or r9,r2,r5](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/1d4c4f93-a529-455e-a7a2-4a55a3ce4f32)  
+
+5.xor r10,r1,r4  
+![5 xor](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/f8e136d0-b650-47a0-83a3-265cf318e6c2)  
+
+6.slt r11,r2,r4  
+![6 slt r11](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/1710e269-20d7-48f0-a462-a627977271a7)  
+
+7.addi r12,r4,5  
+![7 addi r12,r4,5](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/d04bfe74-b77b-4799-96a7-c0927b11af32)  
+
+8.sw r3,r1,2  
+![8 sw r3,r1 2](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/6fcea7ce-d241-4d95-912d-c7cecd85eca0)  
+
+9.lw r13,r1,2  
+![9](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/f7cda62f-f1fb-4ac4-b3ae-15687ecde4ee)  
+
+10.beq r0,r0,15  
+![10](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/a0845f91-91fd-4c3f-a5ab-9b30a87c5c70)  
+
+11.add r14,r2,r2  
+![11](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/55bca0fe-98af-4944-a385-eb10fc2d585d)  
+
+12.bne r0,r1,20  
+![12](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/24a45e03-d222-486a-a465-ca0e61db439e)  
+
+13.addi r12,r4,5  
+![13](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/c128dfe2-398a-4f20-9216-3c729fb85161)  
+
+14.sll r15,r1,r2(2)  
+![14](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/2c27dd5e-6c88-4fcf-8119-6dd3b76664ef)  
+
+15.srl r16,r14,r2(2)  
+![15](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/0ef07c63-720c-4638-b044-f9a859b2f7d1)  
+
+Full 5-stage instruction pipeline and pc-increment description Waveform  
+![final](https://github.com/Sivasrikiran2004/VSDSquadronmini/assets/162977948/ab0d10ff-4e85-4ae6-92a4-ace86e3dd2cb)
